@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50E511B8DA997B7BCB086CA /* Pods_HSPlayerFullScreenDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB864ACC30532A7D85BD30CA /* Pods_HSPlayerFullScreenDemo.framework */; };
+		BA9248BD248899F50050B278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9248BC248899F50050B278 /* AppDelegate.swift */; };
+		BA9248C1248899F50050B278 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9248C0248899F50050B278 /* ViewController.swift */; };
+		BA9248C6248899F60050B278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9248C5248899F60050B278 /* Assets.xcassets */; };
+		BA9248C9248899F60050B278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9248C7248899F60050B278 /* LaunchScreen.storyboard */; };
+		BA9248D32488B3510050B278 /* HSPlayerView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9248D22488B3510050B278 /* HSPlayerView2.swift */; };
+		BA9248D52488B37D0050B278 /* HSPlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9248D42488B37D0050B278 /* HSPlayerControlView.swift */; };
+		BA9248D72488C3C10050B278 /* movie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA9248D62488C3C10050B278 /* movie.jpg */; };
+		BA9248DA2488C4A40050B278 /* HSNativeRotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9248D92488C4A40050B278 /* HSNativeRotationViewController.swift */; };
+		BA9248E02488D3130050B278 /* UIScreen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9248DF2488D3130050B278 /* UIScreen+Extension.swift */; };
+		BA92495A248DFFD80050B278 /* HSPlayerSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA924959248DFFD80050B278 /* HSPlayerSceneController.swift */; };
+		BADAD65B2490B55500FBC440 /* HSPlayerRotationViewWithWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAD65A2490B55500FBC440 /* HSPlayerRotationViewWithWindowController.swift */; };
+		BADAD65D2490B67500FBC440 /* HSPlayerView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAD65C2490B67500FBC440 /* HSPlayerView3.swift */; };
+		BADAD65F2490B89B00FBC440 /* HSPlayerSceneWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAD65E2490B89B00FBC440 /* HSPlayerSceneWindow.swift */; };
+		BADAD6622490CC9800FBC440 /* HSPlayerRotationViewWithLandscapeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAD6612490CC9800FBC440 /* HSPlayerRotationViewWithLandscapeController.swift */; };
+		BADAD6642490CCBC00FBC440 /* HSPlayerView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADAD6632490CCBC00FBC440 /* HSPlayerView4.swift */; };
+		BADB0444248E1C3B00A3CE8D /* UIViewController+Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB0443248E1C3B00A3CE8D /* UIViewController+Transition.swift */; };
+		BADB0447248E262600A3CE8D /* HSPlayerRotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB0446248E262600A3CE8D /* HSPlayerRotationViewController.swift */; };
+		BADB044F2490ACA600A3CE8D /* HSPlayerView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB044E2490ACA600A3CE8D /* HSPlayerView1.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38ED5855FFFA67A0B87AF1A0 /* Pods-HSPlayerFullScreenDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSPlayerFullScreenDemo.debug.xcconfig"; path = "Target Support Files/Pods-HSPlayerFullScreenDemo/Pods-HSPlayerFullScreenDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5AF6EB2382BA1E6249B8CA95 /* Pods-HSPlayerFullScreenDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSPlayerFullScreenDemo.release.xcconfig"; path = "Target Support Files/Pods-HSPlayerFullScreenDemo/Pods-HSPlayerFullScreenDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AB864ACC30532A7D85BD30CA /* Pods_HSPlayerFullScreenDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSPlayerFullScreenDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9248B9248899F50050B278 /* HSPlayerFullScreenDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSPlayerFullScreenDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9248BC248899F50050B278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA9248C0248899F50050B278 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA9248C5248899F60050B278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA9248C8248899F60050B278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA9248CA248899F60050B278 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9248D22488B3510050B278 /* HSPlayerView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPlayerView2.swift; sourceTree = "<group>"; };
+		BA9248D42488B37D0050B278 /* HSPlayerControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPlayerControlView.swift; sourceTree = "<group>"; };
+		BA9248D62488C3C10050B278 /* movie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = movie.jpg; sourceTree = "<group>"; };
+		BA9248D92488C4A40050B278 /* HSNativeRotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSNativeRotationViewController.swift; sourceTree = "<group>"; };
+		BA9248DF2488D3130050B278 /* UIScreen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Extension.swift"; sourceTree = "<group>"; };
+		BA924959248DFFD80050B278 /* HSPlayerSceneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPlayerSceneController.swift; sourceTree = "<group>"; };
+		BADAD65A2490B55500FBC440 /* HSPlayerRotationViewWithWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPlayerRotationViewWithWindowController.swift; sourceTree = "<group>"; };
+		BADAD65C2490B67500FBC440 /* HSPlayerView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPlayerView3.swift; sourceTree = "<group>"; };
+		BADAD65E2490B89B00FBC440 /* HSPlayerSceneWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPlayerSceneWindow.swift; sourceTree = "<group>"; };
+		BADAD6612490CC9800FBC440 /* HSPlayerRotationViewWithLandscapeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPlayerRotationViewWithLandscapeController.swift; sourceTree = "<group>"; };
+		BADAD6632490CCBC00FBC440 /* HSPlayerView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPlayerView4.swift; sourceTree = "<group>"; };
+		BADB0443248E1C3B00A3CE8D /* UIViewController+Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Transition.swift"; sourceTree = "<group>"; };
+		BADB0446248E262600A3CE8D /* HSPlayerRotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPlayerRotationViewController.swift; sourceTree = "<group>"; };
+		BADB044E2490ACA600A3CE8D /* HSPlayerView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSPlayerView1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA9248B6248899F50050B278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50E511B8DA997B7BCB086CA /* Pods_HSPlayerFullScreenDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C0FE9508EF0651FBD880BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB864ACC30532A7D85BD30CA /* Pods_HSPlayerFullScreenDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		977946DB1C3B3E20766F4AA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38ED5855FFFA67A0B87AF1A0 /* Pods-HSPlayerFullScreenDemo.debug.xcconfig */,
+				5AF6EB2382BA1E6249B8CA95 /* Pods-HSPlayerFullScreenDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA9248B0248899F50050B278 = {
+			isa = PBXGroup;
+			children = (
+				BA9248BB248899F50050B278 /* HSPlayerFullScreenDemo */,
+				BA9248BA248899F50050B278 /* Products */,
+				977946DB1C3B3E20766F4AA9 /* Pods */,
+				15C0FE9508EF0651FBD880BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA9248BA248899F50050B278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA9248B9248899F50050B278 /* HSPlayerFullScreenDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA9248BB248899F50050B278 /* HSPlayerFullScreenDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BA9248BC248899F50050B278 /* AppDelegate.swift */,
+				BA9248C0248899F50050B278 /* ViewController.swift */,
+				BA9248DF2488D3130050B278 /* UIScreen+Extension.swift */,
+				BADB0443248E1C3B00A3CE8D /* UIViewController+Transition.swift */,
+				BA9248D12488B30A0050B278 /* Player */,
+				BA9248D82488C4170050B278 /* ViewController原生旋转 */,
+				BADB0445248E253000A3CE8D /* 播放器VIew旋转 */,
+				BADAD6572490B48A00FBC440 /* 播放器View旋转+添加播放器竖屏Window */,
+				BADAD6602490CB5500FBC440 /* 播放器View旋转+添加播放器横屏Window */,
+				BA9248C5248899F60050B278 /* Assets.xcassets */,
+				BA9248C7248899F60050B278 /* LaunchScreen.storyboard */,
+				BA9248CA248899F60050B278 /* Info.plist */,
+			);
+			path = HSPlayerFullScreenDemo;
+			sourceTree = "<group>";
+		};
+		BA9248D12488B30A0050B278 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				BA9248D42488B37D0050B278 /* HSPlayerControlView.swift */,
+				BA924959248DFFD80050B278 /* HSPlayerSceneController.swift */,
+				BA9248D62488C3C10050B278 /* movie.jpg */,
+				BADAD65E2490B89B00FBC440 /* HSPlayerSceneWindow.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		BA9248D82488C4170050B278 /* ViewController原生旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				BA9248D92488C4A40050B278 /* HSNativeRotationViewController.swift */,
+				BADB044E2490ACA600A3CE8D /* HSPlayerView1.swift */,
+			);
+			path = "ViewController原生旋转";
+			sourceTree = "<group>";
+		};
+		BADAD6572490B48A00FBC440 /* 播放器View旋转+添加播放器竖屏Window */ = {
+			isa = PBXGroup;
+			children = (
+				BADAD65A2490B55500FBC440 /* HSPlayerRotationViewWithWindowController.swift */,
+				BADAD65C2490B67500FBC440 /* HSPlayerView3.swift */,
+			);
+			path = "播放器View旋转+添加播放器竖屏Window";
+			sourceTree = "<group>";
+		};
+		BADAD6602490CB5500FBC440 /* 播放器View旋转+添加播放器横屏Window */ = {
+			isa = PBXGroup;
+			children = (
+				BADAD6612490CC9800FBC440 /* HSPlayerRotationViewWithLandscapeController.swift */,
+				BADAD6632490CCBC00FBC440 /* HSPlayerView4.swift */,
+			);
+			path = "播放器View旋转+添加播放器横屏Window";
+			sourceTree = "<group>";
+		};
+		BADB0445248E253000A3CE8D /* 播放器VIew旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				BADB0446248E262600A3CE8D /* HSPlayerRotationViewController.swift */,
+				BA9248D22488B3510050B278 /* HSPlayerView2.swift */,
+			);
+			path = "播放器VIew旋转";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA9248B8248899F50050B278 /* HSPlayerFullScreenDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9248CD248899F60050B278 /* Build configuration list for PBXNativeTarget "HSPlayerFullScreenDemo" */;
+			buildPhases = (
+				C7B440CC9F7623FD14F8AB18 /* [CP] Check Pods Manifest.lock */,
+				BA9248B5248899F50050B278 /* Sources */,
+				BA9248B6248899F50050B278 /* Frameworks */,
+				BA9248B7248899F50050B278 /* Resources */,
+				2ACA2E0DCE2173BD3555B247 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSPlayerFullScreenDemo;
+			productName = HSPlayerFullScreenDemo;
+			productReference = BA9248B9248899F50050B278 /* HSPlayerFullScreenDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA9248B1248899F50050B278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = hejianyuan;
+				TargetAttributes = {
+					BA9248B8248899F50050B278 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = BA9248B4248899F50050B278 /* Build configuration list for PBXProject "HSPlayerFullScreenDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA9248B0248899F50050B278;
+			productRefGroup = BA9248BA248899F50050B278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA9248B8248899F50050B278 /* HSPlayerFullScreenDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA9248B7248899F50050B278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9248C9248899F60050B278 /* LaunchScreen.storyboard in Resources */,
+				BA9248C6248899F60050B278 /* Assets.xcassets in Resources */,
+				BA9248D72488C3C10050B278 /* movie.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2ACA2E0DCE2173BD3555B247 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSPlayerFullScreenDemo/Pods-HSPlayerFullScreenDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HSPlayerFullScreenDemo/Pods-HSPlayerFullScreenDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HSPlayerFullScreenDemo/Pods-HSPlayerFullScreenDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B440CC9F7623FD14F8AB18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HSPlayerFullScreenDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA9248B5248899F50050B278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADAD65F2490B89B00FBC440 /* HSPlayerSceneWindow.swift in Sources */,
+				BA9248D52488B37D0050B278 /* HSPlayerControlView.swift in Sources */,
+				BADAD6642490CCBC00FBC440 /* HSPlayerView4.swift in Sources */,
+				BADAD6622490CC9800FBC440 /* HSPlayerRotationViewWithLandscapeController.swift in Sources */,
+				BA9248C1248899F50050B278 /* ViewController.swift in Sources */,
+				BA9248D32488B3510050B278 /* HSPlayerView2.swift in Sources */,
+				BADB0447248E262600A3CE8D /* HSPlayerRotationViewController.swift in Sources */,
+				BADAD65D2490B67500FBC440 /* HSPlayerView3.swift in Sources */,
+				BADB044F2490ACA600A3CE8D /* HSPlayerView1.swift in Sources */,
+				BA9248BD248899F50050B278 /* AppDelegate.swift in Sources */,
+				BA9248DA2488C4A40050B278 /* HSNativeRotationViewController.swift in Sources */,
+				BADB0444248E1C3B00A3CE8D /* UIViewController+Transition.swift in Sources */,
+				BADAD65B2490B55500FBC440 /* HSPlayerRotationViewWithWindowController.swift in Sources */,
+				BA92495A248DFFD80050B278 /* HSPlayerSceneController.swift in Sources */,
+				BA9248E02488D3130050B278 /* UIScreen+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA9248C7248899F60050B278 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9248C8248899F60050B278 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA9248CB248899F60050B278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA9248CC248899F60050B278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA9248CE248899F60050B278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38ED5855FFFA67A0B87AF1A0 /* Pods-HSPlayerFullScreenDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY7LMS5KN7;
+				INFOPLIST_FILE = HSPlayerFullScreenDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.thinkcode.player.fullscreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BA9248CF248899F60050B278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF6EB2382BA1E6249B8CA95 /* Pods-HSPlayerFullScreenDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RY7LMS5KN7;
+				INFOPLIST_FILE = HSPlayerFullScreenDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.thinkcode.player.fullscreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA9248B4248899F50050B278 /* Build configuration list for PBXProject "HSPlayerFullScreenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9248CB248899F60050B278 /* Debug */,
+				BA9248CC248899F60050B278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9248CD248899F60050B278 /* Build configuration list for PBXNativeTarget "HSPlayerFullScreenDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9248CE248899F60050B278 /* Debug */,
+				BA9248CF248899F60050B278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA9248B1248899F50050B278 /* Project object */;
+}
